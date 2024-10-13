@@ -17,7 +17,7 @@ st.set_page_config(page_title="Chat PDF")
 load_dotenv()
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
-PDF_FOLDER_PATH = r"C:\Users\yashw\Downloads\miniproject\publicatons"  # Specify the path to your folder with PDFs
+PDF_FOLDER_PATH = r"publicatons"  # Specify the path to your folder with PDFs
 FAISS_INDEX_PATH = "faiss_index"
 CHECKSUM_FILE_PATH = "checksum.txt"
 
